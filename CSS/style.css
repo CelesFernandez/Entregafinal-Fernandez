@@ -177,4 +177,11 @@ footer p {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
