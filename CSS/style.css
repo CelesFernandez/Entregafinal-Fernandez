@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/*logo*/
+/* Mixin para estilos de fuente */
+/* Mixin para estilos de círculo */
+/* Mixin para estilos de imagen */
+body {
+  font-family: "Bebas Neue", cursive;
+  background-color: rgb(27, 25, 25);
+  background: size 100%;
+  color: antiquewhite;
+}
+body .Loopin {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+form {
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border: 10px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: oblique;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  text-decoration: wavy;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.circulo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.portada {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/*contiene la foto de las papas*/
+.container-row {
+  display: flex;
+  font-size: 20px;
+}
+.container-row p {
+  justify-content: center;
+  margin-top: 30%;
+}
+
+/*imagenes de abajo que estan de a 3 inicio*/
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.image-row img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: calc(33.33% - 10px);
+  margin-right: 10px;
+}
+
+.portada-evento {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 300px;
+}
+
+/*imagenes de eventos*/
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 5%;
+  margin-left: 25px;
+}
+.image-grid img {
+  width: auto;
+  height: 300px;
+  align-items: center;
+}
+
+/*imagenes de los eventos*/
+.image-grid1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 400px;
+  margin-left: 25px;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.menu-list ul {
+  list-style: none;
+  text-align: center;
+}
+.menu-list h3 {
+  margin-left: 20%;
+  text-align: center;
+}
+
+.portada-nosotros {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.parrafo-giratorio {
+  text-align: center;
+}
+
+.texto-1 {
+  justify-content: center;
+  text-align: center;
+  margin-top: -10%;
+}
+
+.texto {
+  margin-left: 25%;
+  text-align: center;
+}
+
+/*texto al lado de imagen en nosotros*/
+.contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.contenedor2 {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafo-giratorio {
+  animation: girar 2s linear forwards;
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+$primary-color: rgb(27, 25, 25);
+$accent-color: antiquewhite;
+$font-size: 30px;
+$margin-top: 50px;
+$grid-gap: 10px;
+
+
+/*logo*/
+$circulo-width: 150px;
+$circulo-height: 150px;
+$circulo-border-radius: 50%;
+$circulo-margin: 20px;
+
+
+/* Mixin para estilos de fuente */
+@mixin font-styles {
+    font-size: $font-size;
+  }
+  
+  /* Mixin para estilos de círculo */
+  @mixin circulo-styles {
+    width: $circulo-width;
+    height: $circulo-height;
+    border-radius: $circulo-border-radius;
+    margin-top: $circulo-margin;
+    margin-left: $circulo-margin;
+  }
+  
+  /* Mixin para estilos de imagen */
+  @mixin image-styles {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
