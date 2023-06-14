@@ -25,12 +25,15 @@ form {
 
 h1 {
   font-size: 30px;
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: oblique;
+  text-align: center;
 }
 
 h2 {
   font-size: 40px;
   text-decoration: underline;
-  font-style: oblique;
   text-align: center;
 }
 
@@ -63,6 +66,11 @@ h4 {
 .container-row p {
   justify-content: center;
   margin-top: 30%;
+}
+
+.texto-fin {
+  justify-content: center;
+  text-align: center;
 }
 
 /*imagenes de abajo que estan de a 3 inicio*/
@@ -121,11 +129,20 @@ h4 {
 }
 .menu-list ul {
   list-style: none;
-  text-align: center;
+  padding: 0;
 }
 .menu-list h3 {
-  margin-left: 20%;
   text-align: center;
+  margin-top: 20px;
+}
+.menu-list .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-list .col {
+  text-align: center;
+  flex-basis: 33.33%;
 }
 
 .portada-nosotros {
@@ -142,6 +159,12 @@ h4 {
   justify-content: center;
   text-align: center;
   margin-top: -10%;
+}
+
+.bienvenido {
+  margin-top: 10px;
+  margin-left: 25%;
+  text-align: center;
 }
 
 .texto {
@@ -174,6 +197,33 @@ h4 {
 }
 footer p {
   text-align: center;
+  margin-top: 10px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.redes a img {
+  animation: rotate 2s infinite linear;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redes a {
+  margin: 0 10px;
+  display: inline-block;
+}
+.redes a img {
+  width: 30px;
+  height: 30px;
 }
 
 @media (max-width: 768px) {
