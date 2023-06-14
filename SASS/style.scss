@@ -61,7 +61,7 @@ h4 {
   }
 }
 
-.texto-fin{
+.texto-fin {
   justify-content: center;
   text-align: center;
 }
@@ -71,7 +71,6 @@ h4 {
   display: flex;
   justify-content: space-around;
   margin-top: 10px;
-
 
   img {
     @include image-styles;
@@ -157,6 +156,7 @@ h4 {
   margin-left: 25%;
   text-align: center;
 }
+
 .texto {
   margin-left: 25%;
   text-align: center;
@@ -185,11 +185,13 @@ h4 {
     transform: rotate(360deg);
   }
 }
-  footer p {
-    text-align: center;
-    margin-top: 10px;
-  }
-  @keyframes rotate {
+
+footer p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
@@ -201,25 +203,26 @@ h4 {
 .redes a img {
   animation: rotate 2s infinite linear; // Ajusta la duración y el tipo de animación según tus preferencias
 }
-  .redes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    a {
-      margin: 0 10px;
-      display: inline-block;
-  
-      img {
-        width: 30px;
-        height: 30px;
-      }
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    margin: 0 10px;
+    display: inline-block;
+
+    img {
+      width: 30px;
+      height: 30px;
     }
   }
-  
-  @media (max-width: 768px) {
-    .image-grid img {
-      width: 100%; 
-      height: auto; 
-    }
-  } 
+}
+
+@media (max-width: 768px) {
+  .image-grid img {
+    width: 100%;
+    height: auto;
+  }
+}
